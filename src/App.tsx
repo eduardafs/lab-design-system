@@ -1,7 +1,8 @@
 import './styles/global.css';
+import { Signin } from './pages/Signin';
 
 export function App() {
   return (
-    <h1> Hello World </h1>
+    <Signin/>
   )
 }
